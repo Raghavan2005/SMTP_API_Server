@@ -6,7 +6,7 @@ const transporter = nodemailer.createTransport({
   secure: true,
   auth: {
     user: "raghavan2005@zohomail.in",
-    pass: "qMCtWh7cUTMA",
+    pass: "",
   },
 });
 
