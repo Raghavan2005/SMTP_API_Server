@@ -1,0 +1,20 @@
+{
+  "name": "smtp_api_server",
+  "version": "1.0.0",
+  "description": "raghavan",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "raghavan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.1",
+    "express-rate-limit": "^7.2.0",
+    "generate-api-key": "^1.0.2",
+    "inline-css": "^4.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.13"
+  }
+}
